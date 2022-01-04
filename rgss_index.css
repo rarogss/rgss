@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  color: #2E4053;
+}
+
+nav{
+  background-color: #D4AC0D;
+  margin: 0 auto;
+}
+
+nav ul{
+  display: flex;
+  padding: 10px;
+}
+
+nav ul li{
+  padding: 10px;
+  list-style: none;
+}
+
+nav ul li a{
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: #2E4053;
+
+}
+
+main .comp-name{
+  display: flex;
+  background-color: #F7DC6F;
+  color: #2E4053;
+  min-height: 300px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+
+
+}
+
+.comp-name h1{
+  outline: 5px solid #F9E79F;
+  outline-offset: 10px;
+  letter-spacing: 5px;
+  animation: text 3s 1;
+}
+
+.comp-name img{
+    position: absolute;
+    z-index: -1;
+}
+
+.comp-desc{
+  display: flex;
+  min-height: 450px;
+  padding: 20px;
+
+}
+
+.left-side{
+  padding: 20px;
+  text-align: justify;
+  width: 50%;
+
+}
+
+.left-side h1{
+    padding-bottom: 10px;
+}
+
+.right-side{
+  padding: 20px;
+  text-align: justify;
+  background-image: url('LOGO_rgss.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position:bottom;
+  position: relative;
+
+}
+
+.right-side ul li{
+  padding: 7px;
+  font-size: 1.2rem;
+  margin-left: 60px;
+}
+.right-side ul li a{
+  text-decoration: none;
+}
+.contacts{
+  padding: 40px;
+  background-color: #F7DC6F;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer .copy-right{
+  background-color: #D4AC0D;
+  padding: 14px;
+}
+
+@keyframes text {
+  0%{
+    color: #F1C40F;
+  }
+  50%{
+    letter-spacing: 18px;
+  }
+  100%{
+    letter-spacing: 5px;
+  }
+}

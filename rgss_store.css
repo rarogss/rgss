@@ -1,0 +1,74 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+  color: #2E4053;
+}
+
+.store{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    width: 50%;
+}
+
+.store img{
+  height: 300px;
+  width: 300px;
+}
+
+.store .product{
+  margin: 10px;
+  border: 2px solid #F2F3F4;
+  border-radius: 5px;
+}
+
+.product .desc{
+  background-color:#CACFD2;
+  padding: 10px;
+}
+
+.back a{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #F9E79F;
+    margin-left: auto;
+    padding: 10px;
+}
+
+
+.projects ul{
+    padding-left: 35px;
+}
+
+h1{
+    text-transform: uppercase;
+
+}
+
+.contacts{
+  padding: 40px;
+  background-color: #F7DC6F;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer .copy-right{
+  background-color: #D4AC0D;
+  padding: 14px;
+}
